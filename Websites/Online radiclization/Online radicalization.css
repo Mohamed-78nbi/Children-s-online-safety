@@ -1,0 +1,92 @@
+.active{
+    background-color: lightseagreen; 
+}
+@font-face{
+    font-family:'Alkes';
+    src: url(AlkesDemo-Semibold.otf);
+    font-style:normal;
+}
+/* experiment*/
+
+
+
+/*body*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#f7f7f7 ; 
+    margin: 10vh;
+}
+
+#header{
+    font: 75px 'Alkes';
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.body{
+    width: 100%;
+    /* margin: 10vh  5vw; */
+}
+
+.section{
+    margin: 6vh 0;
+    padding: 1vh;
+}
+.section h2{
+    font-family:'Alkes';
+    font-size: 30px;
+    margin:3vh 0;
+    text-transform: uppercase;
+}
+.section p{
+    margin-bottom: 3vh;
+    font-size: 22px;
+}
+.section ul,ol {
+    font-size: 22px;
+    list-style-position: inside;
+}
+#p2{
+    margin-top: 3vh;
+}
+li{
+    margin:1vh 0;
+}
+
+.videos{
+    display:flex;
+    justify-content: space-around;
+}
+iframe{
+    margin:5vh 2vh;
+}
+
+
+
+
+
+
+@media only screen and (max-width:780px){
+    #header{
+        font-size:40px;
+    }
+    iframe{
+        width:560px;
+    }
+}
+
+@media only screen and (max-width:425px){
+
+    iframe{
+        width:300px;
+    }
+}
+
+@media only screen and (max-width:320px){
+
+    iframe{
+        width:150px;
+    }
+}

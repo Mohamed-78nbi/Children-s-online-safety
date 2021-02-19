@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'gidole';
+    src: url(../gidole/GidoleFont/Gidole-Regular.ttf);
+    font-style:normal;
+}
+
+@media only screen and (max-width: 780px){
+
+
+    nav{
+        background-color:#1c1b1a ;
+        widows: 100%;
+        height:10vh;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+        font-family: 'gidole';
+        padding: 0 10px;
+        color:rgb(255,255,255);
+        
+    }
+    
+   nav ul{
+       width:100%;
+       list-style-type: none;
+      display:flex;
+      justify-content: space-around ;
+   }
+   nav ul li a {
+       color: rgb(255,255,255);
+       text-decoration: none;
+       font-size:1.2em;
+   }
+   nav ul li a:hover{
+       color:#73716f;
+       transition-delay: 0.3s;
+       transition-duration: 0.5s;
+   }
+/*showcase*/
+
+#showcase{
+    width: 100%;
+    height:100vh;
+    background-image: url(../img/AdobeStock_113316593.jpeg);
+    background-size:cover;
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size:1.4em;
+}
+
+
+/*end*/
+.end{
+    position:relative;
+    height:20vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+@media all and (max-width : 770px){
+    #topBtn {display:none}
+}
+
+}
+
+

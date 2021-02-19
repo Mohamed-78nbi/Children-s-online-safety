@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'gidole';
+}
+@font-face{
+    font-family: 'gidole';
+    src: url(gidole/GidoleFont/Gidole-Regular.ttf);
+    font-style:normal;
+}
+ nav{
+     background-color:#1c1b1a ;
+     widows: 100%;
+     height:10vh;
+     display:flex;
+     justify-content:space-around;
+     align-items:center;
+     font-family: 'gidole';
+     padding: 0 10px;
+     color:rgb(255,255,255);
+     
+ }
+ 
+nav ul{
+    width:40%;
+    list-style-type: none;
+   display:flex;
+   justify-content: space-around ;
+}
+nav ul li a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-size:1.2em;
+}
+nav ul li a:hover{
+    color:#73716f;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+}
+
+.active{
+    color: lightseagreen; 
+}
+/*Dropdown*/
+.Dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+.Dropdown-Content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.Dropdown-Content  a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 19px;
+}
+
+/* Change color of dropdown links on hover */
+.Dropdown-Content a:hover {background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.Dropdown:hover .Dropdown-Content {display: block;}
+/*Showcase*/
+ #showcase{
+    width: 100%;
+    height:100vh;
+     background-image: url(img/AdobeStock_113316593.jpeg);
+    background-size:cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255,255,255);
+    font-size:1.4em;
+}
+
+/*boxes  content area */
+.boxes{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+}
+.box1{
+    background-color: rgb(236, 232, 232); 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1 h2{
+    margin:5vh;
+}
+.box1 p{
+    padding: 0 30vw  0vw 30vw;
+    font-size:19px;
+}
+
+/*end*/
+.end{
+    position: relative;
+    height:20vh;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.end .p1 span{
+    color:rgb(158, 158, 158);
+}
+.p1{
+    align-self: flex-start;
+    padding:0 10px;
+}
+.p2{
+   align-self: flex-end;
+   padding:0 10px;
+}

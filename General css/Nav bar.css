@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'gidole';
+}
+@font-face{
+    font-family: 'gidole';
+    src: url(../gidole/GidoleFont/Gidole-Regular.ttf);
+    font-style:normal;
+}
+ nav{
+     background-color:#1c1b1a ;
+     position: fixed;
+     top:0; 
+     width: 100%;
+     height:10vh;
+     display:flex;
+     justify-content:space-around;
+     align-items:center;
+     font-family: 'gidole';
+     /* padding: 0 10px; */
+     color:rgb(255,255,255);
+     z-index: 2;
+ }
+nav ul{
+    width:40%;
+    list-style-type: none;
+   display:flex;
+   justify-content: space-around ;
+}
+nav ul li a, nav ul .Navlink {
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-size:1.2em;
+}
+nav ul li a:hover, nav ul .Navlink:hover{
+    color:#73716f;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+}
+/* main{
+  margin-top: 10vh;
+} */
+/*Dropdown*/
+.Dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+.Dropdown-Content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.Dropdown-Content  a {
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 19px;
+}
+
+/* Change color of dropdown links on hover */
+.Dropdown-Content a:hover {background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.Dropdown:hover .Dropdown-Content {display: block;}
+
+/*footer*/
+/*end*/
+.end{
+  height:20vh;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.end .p1 span{
+  color:rgb(158, 158, 158);
+}
+.p1{
+  align-self: flex-start;
+  padding:0 10px;
+}
+.p2{
+ align-self: flex-end;
+ padding:0 10px;
+}
+
+
+/* page name*/
+.Title a{
+  text-decoration: none;
+  color:#ffff;
+}
+
+/* contact button*/
+button{
+  font-size:23px;
+  padding:8px;
+  background-color:rgb(133, 138, 141) ;
+  border: 1px solid rgb(255,255,255);
+  border-radius: 1%;
+  font-family: 'gidole';
+}
+button a{
+  text-decoration: none;
+  color:black;
+  text-transform: uppercase;
+}
+button:hover {
+  transition-delay: 5ms;
+  transition-duration: 2s;
+  transform: scale(1.05);
+}
+button:hover a{
+  color:#ffff;
+  transition-delay: 5ms;
+  transition-duration: 2s;
+}
+
+/*top button */
+#topBtn{
+  font-family: 'gidole';
+  /* padding:10px;
+
+  background-color:#1c1b1a;
+  border-radius:55%;
+   */
+   border:2px solid #ffff;
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 5%;
+  left: 95%;
+  background-color: rgb(0, 0, 0);
+
+}
+#topBtn a{
+  color:#ffff;
+}
+
+/*List of contents*/
+.listOfContents li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
