@@ -41,10 +41,7 @@ nav ul li a:hover{
 .active{
     color: lightseagreen; 
 }
-.Title a{
-    text-decoration: none;
-    color:#ffff;
-  }
+
 /*Dropdown*/
 .Dropdown {
     position: relative;
@@ -132,4 +129,17 @@ nav ul li a:hover{
 .p2{
    align-self: flex-end;
    padding:0 10px;
+}
+
+
+
+
+
+
+/*title*/
+
+.Title a {
+ 
+    color:rgb(255,255,255);
+    text-decoration: none;
 }
