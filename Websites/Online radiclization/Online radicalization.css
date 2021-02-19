@@ -12,12 +12,11 @@
 
 /*body*/
 main{
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color:#f7f7f7 ; 
-
+    margin: 10vh;
 }
 
 #header{
@@ -28,6 +27,7 @@ main{
 
 .body{
     width: 100%;
+    /* margin: 10vh  5vw; */
 }
 
 .section{
