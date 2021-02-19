@@ -14,14 +14,13 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color:#f7f7f7 ; 
+    background-color:#f7f7f7 ;
 }
 
 #header{
     font: 75px 'Alkes';
     text-align: center;
     margin: 10vh 0;
-    padding: 3vh 5vw  0 5vw;
 }
 
 .body{
@@ -51,17 +50,9 @@ main{
     margin-top: 3vh;
 }
 li{
-    margin:3vh 0;
+    margin:1vh 0;
 }
 
-.section1 ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-li a{
-    text-decoration: none;
-}
 
 @media only screen and (max-width:780px){
     #header{
@@ -70,9 +61,7 @@ li a{
     iframe{
         width:560px;
     }
-    .tc h1{
-        margin-top: 15px;
-    }
+  
 }
 
 @media only screen and (max-width:425px){
