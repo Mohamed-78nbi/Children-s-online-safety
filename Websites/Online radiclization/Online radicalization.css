@@ -27,7 +27,7 @@ main{
 
 .body{
     width: 100%;
-    /* margin: 10vh  5vw; */
+     margin: 10vh  0vw; 
 }
 
 .section{
@@ -62,9 +62,6 @@ li{
 iframe{
     margin:5vh 2vh;
 }
-
-
-
 
 
 
