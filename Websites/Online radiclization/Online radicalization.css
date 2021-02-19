@@ -16,7 +16,7 @@ main{
     justify-content: center;
     flex-direction: column;
     background-color:#f7f7f7 ; 
-    margin: 10vh;
+    /* margin: 10vh; */
 }
 
 #header{
