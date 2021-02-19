@@ -15,6 +15,11 @@ main{
     background-color:#f7f7f7 ;
 }
 
+#header{
+    font: 75px 'Alkes';
+    text-align: center;
+    margin: 10vh 0;
+}
 
 .body{
     width: 80%;
@@ -44,4 +49,12 @@ main{
 }
 li{
     margin:1vh 0;
+}
+
+
+@media only screen and (max-width: 780px){
+
+    #header{
+        font-size:40px;
+    }
 }
