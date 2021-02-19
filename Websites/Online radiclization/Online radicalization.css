@@ -57,4 +57,24 @@ li{
     #header{
         font-size:40px;
     }
+    iframe{
+        width:560px;
+    }
 }
+
+@media only screen and (max-width:425px){
+
+    iframe{
+        width:300px;
+    }
+ 
+}
+
+
+@media only screen and (max-width:320px){
+
+    iframe{
+        width:150px;
+    }
+}
+
