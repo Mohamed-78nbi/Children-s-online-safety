@@ -41,8 +41,8 @@ nav ul li a:hover{
 .active{
     color: lightseagreen; 
 }
-
-.tc a{
+.Title a{
+    text-decoration: none;
     color:rgb(255,255,255);
 }
 /*Dropdown*/
