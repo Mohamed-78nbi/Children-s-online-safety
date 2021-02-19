@@ -31,6 +31,7 @@ nav ul li a {
     color: rgb(255,255,255);
     text-decoration: none;
     font-size:1.2em;
+    font-family: 'gidole';
 }
 nav ul li a:hover{
     color:#73716f;
@@ -67,7 +68,9 @@ nav ul li a:hover{
 }
 
 /* Change color of dropdown links on hover */
-.Dropdown-Content a:hover {background-color: #ddd;
+.Dropdown-Content a:hover 
+{
+    background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
