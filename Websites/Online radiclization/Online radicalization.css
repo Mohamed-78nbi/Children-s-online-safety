@@ -72,11 +72,14 @@ iframe{
     iframe{
         width:560px;
     }
-    .videos iframe{
+    .videos {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: center;
+       
+    }
+    .videos iframe{
         width:560px;
     }
 }
@@ -86,11 +89,14 @@ iframe{
     iframe{
         width:300px;
     }
-    .videos iframe{
+    .videos {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: center;
+  
+    }
+    .videos iframe{
         width:300px;
     }
 }
@@ -100,11 +106,14 @@ iframe{
     iframe{
         width:150px;
     }
-    .videos iframe{
+    .videos {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: center;
+        
+    }
+    .videos iframe{
         width:150px;
     }
 }
