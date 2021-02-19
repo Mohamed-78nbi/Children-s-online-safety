@@ -27,17 +27,19 @@ nav ul{
    display:flex;
    justify-content: space-around ;
 }
-nav ul li a {
+
+
+nav ul li a, nav ul .Navlink {
     color: rgb(255,255,255);
     text-decoration: none;
     font-size:1.2em;
-    font-family: 'gidole';
 }
-nav ul li a:hover{
+nav ul li a:hover, nav ul .Navlink:hover{
     color:#73716f;
     transition-delay: 0.3s;
     transition-duration: 0.5s;
 }
+
 
 .active{
     color: lightseagreen; 
