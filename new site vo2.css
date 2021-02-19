@@ -41,6 +41,10 @@ nav ul li a:hover{
 .active{
     color: lightseagreen; 
 }
+
+.tc a{
+    color:rgb(255,255,255);
+}
 /*Dropdown*/
 .Dropdown {
     position: relative;
