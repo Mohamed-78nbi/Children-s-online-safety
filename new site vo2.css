@@ -8,7 +8,7 @@
     src: url(gidole/GidoleFont/Gidole-Regular.ttf);
     font-style:normal;
 }
- /* nav{
+ nav{
      background-color:#1c1b1a ;
      widows: 100%;
      height:10vh;
@@ -141,10 +141,10 @@ nav ul li a:hover, .Navlink:hover{
 
 
 
-/* title
+/* title*/
 
 .Title a {
  
     color:rgb(255,255,255);
     text-decoration: none;
-} */
+} 
