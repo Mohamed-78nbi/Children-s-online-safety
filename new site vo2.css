@@ -71,19 +71,6 @@ nav ul li a:hover{
 
 /* Show the dropdown menu on hover */
 .Dropdown:hover .Dropdown-Content {display: block;}
-/*Showcase*/
- #showcase{
-    width: 100%;
-    height:100vh;
-     background-image: url(img/AdobeStock_113316593.jpeg);
-    background-size:cover; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color:rgb(255,255,255);
-    font-size:1.4em;
-}
 
 
 /*Showcase*/
