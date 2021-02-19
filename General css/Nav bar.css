@@ -38,9 +38,7 @@ nav ul li a:hover, nav ul .Navlink:hover{
     transition-delay: 0.3s;
     transition-duration: 0.5s;
 }
-/* main{
-  margin-top: 10vh;
-} */
+
 /*Dropdown*/
 .Dropdown {
     position: relative;
